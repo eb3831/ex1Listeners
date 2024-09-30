@@ -42,5 +42,7 @@ public class MainActivity extends AppCompatActivity
         result.putExtra("blueScore", blueScore);
         result.putExtra("redScore", redScore);
         startActivity(result);
+        blueScore = 0;
+        redScore = 0;
     }
 }
